@@ -14,3 +14,15 @@ body {
   width: 500px;
   margin: 0 auto;
 }
+
+.custom-font {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 150px;
+  margin: 0auto;
+}
+
+.lead {
+  font-family: 'Archivo Narrow', sans-serif;
+  padding-top: 0rem;
+}
+

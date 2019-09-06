@@ -1,13 +1,6 @@
-body {
-  padding-top: 5rem;
-}
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center;
-}
-
-.gallery img {
-  width: 300px;
 }
 
 .carousel {
@@ -15,10 +8,11 @@ body {
   margin: 0 auto;
 }
 
-.custom-font {
+.main-title {
   font-family: 'Abril Fatface', cursive;
-  font-size: 150px;
-  margin: 0auto;
+  font-size: 50px;
+  margin: 0 auto;
+ 
 }
 
 .lead {
@@ -26,3 +20,21 @@ body {
   padding-top: 0rem;
 }
 
+
+@media all and (min-width: 570px) {
+  .main-title {
+    font-size: 87px;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .main-title {
+    font-size: 150px;
+  }
+}
+.main-title2 {
+  font-size: 40px;
+  font-family: 'Abril Fatface', sans-serif;
+  color: green;
+  padding-right: 1rem;
+}

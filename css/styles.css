@@ -1,18 +1,30 @@
+#mynavbar {
+  background-color: #99d2fc !important;
+}
+#search-button {
+  color: white;
+  border-color: white;
+}
+#search-button:hover {
+  background-color: white;
+  color: #41c3f1;
+}
+
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center;
 }
 
 .carousel {
-  width: 500px;
+  width: 700px;
   margin: 0 auto;
 }
 
 .main-title {
-  font-family: 'Abril Fatface', cursive;
-  font-size: 50px;
+  font-family:'Source Serif Pro', serif;
+  font-size: 40px;
   margin: 0 auto;
- 
+color: #00477c;
 }
 
 .lead {
@@ -23,18 +35,31 @@
 
 @media all and (min-width: 570px) {
   .main-title {
-    font-size: 87px;
+    font-size: 60px;
   }
 }
 
 @media all and (min-width: 1000px) {
   .main-title {
-    font-size: 150px;
+    font-size: 80px;
   }
 }
 .main-title2 {
   font-size: 40px;
   font-family: 'Abril Fatface', sans-serif;
-  color: green;
+  color:#00477c;
   padding-right: 1rem;
+}
+
+
+.card {
+  margin: 20px 0;
+  border: 2px solid rgb(153, 210, 252);
+  min-height: 460px;
+}
+
+
+
+.blog-footer {
+  color: #00477c;
 }

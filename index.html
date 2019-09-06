@@ -14,13 +14,23 @@
 
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/styles.css" rel="stylesheet">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  
+  
+
+
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav id="mynavbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
 
     <h1 class="main-title2">AMEAware</h1>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -34,27 +44,12 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="#">Sign Up</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <button id="search-button" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
   </nav>
@@ -65,8 +60,8 @@
   <main role="main" class="container">
 
     <div class="starter-template">
-      <h1 class="main-title">AMEAware</h1>
-      <p>-disability not inability-</p>
+      <h1 class="main-title">"disability NOT inability"</h1>
+
     </div>
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -80,7 +75,7 @@
         </div>
         <div class="carousel-item">
           <img class="d-block w-100"
-            src="https://thumbs.dreamstime.com/z/equal-rights-people-disabilities-able-bodied-person-computer-generated-image-white-background-31307351.jpg"
+            src="https://www.nevronas.gr/sites/default/files/inline-images/kids_wheelchair_friends.jpg"
             alt="Third slide">
         </div>
       </div>
@@ -94,7 +89,7 @@
       </a>
     </div>
 
-    <h1 class="text-center mt-5 mb-5">WELCOME</h1>
+    
 
     <!-- columns -->
     <div class="row">
@@ -106,10 +101,10 @@
             alt="Card image cap">
           <div class="card-body">
             <p class="card-text">ΚΙΝΗΜΑΤΟΓΡΑΦΟΣ ΔΑΝΑΟΣ
-                <p> Λ. Κηφισίας 109, 11524 Αθήνα
-                	Ράμπα και εύκολη πρόσβαση
-                	Χώρος ανάμεσα στις θέσεις</p>
-                </p>
+              <p> Λ. Κηφισίας 109, 11524 Αθήνα.
+                Ράμπα και εύκολη πρόσβαση.
+                Χώρος ανάμεσα στις θέσεις</p>
+            </p>
           </div>
         </div>
       </div>
@@ -121,79 +116,85 @@
             alt="Card image cap">
           <div class="card-body">
             <p class="card-text">ΒΥΖΑΝΤΙΝΟ (εστιατόριο)
-                <p>	$$$$
+              <p> $$$$
                 (ξεν. «Hilton») Βασ. Σοφίας 46, Ιλίσια
-                Ράμπα & πράσβση πάρκινγκ </p>
-                </p>
+                Ράμπα & πράσβση πάρκινγκ. </p>
+            </p>
           </div>
         </div>
       </div>
 
       <div class="col">
-          <!-- add an image here -->
-          <div class="card">
-            <img class="card-img-top" src="	http://www.patrisnews.com/wp-content/uploads/2019/09/3-5-1.jpg"
-              alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">ΠΗΝΕΙΟΣ ΓΛΥΦΑ
-                  <p>Παρκιγνκ (για αμεα)
-                  	Ομπρελες 
-                  Δρομο προς παραλια καταλληλο για αναπηρους
-                  Αποδητηρια (για αμεα)
-                	Ντουζιερες (για αμεα)
-                  WC </p>
-                  </p>
-            </div>
+        <!-- add an image here -->
+        <div class="card">
+          <img class="card-img-top" src="	http://www.patrisnews.com/wp-content/uploads/2019/09/3-5-1.jpg"
+            alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">ΠΗΝΕΙΟΣ ΓΛΥΦΑ
+              <p>Παρκιγνκ (για αμεα).
+                Ομπρελες.
+                Δρομο προς παραλια καταλληλο για αναπηρους.
+                Αποδητηρια (για αμεα).
+                Ντουζιερες (για αμεα).
+                WC. </p>
+            </p>
           </div>
         </div>
+      </div>
     </div>
 
 
     <div class="row">
 
-        <div class="col">
-            <!-- add an image here -->
-            <div class="card">
-              <img class="card-img-top" src="https://www.lifo.gr/icache/870/580/1/1433282_Amuvni-paidiki-xara-AMEA-lifo_-15-.jpg"
-                alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">ΠΑΙΔΙΚΗ ΧΑΡΑ ΓΙΑ ΑΜΕΑ
-                   <p> Λεωφόρος Βουλιαγμένης, πρώην Αμερικάνικη Βάση 16777 Eλληνικό
-                    	Πρότυπη παιδική χαρά για ΑμεΑ που λειτουργεί στον σύλλογο "Αμυμώνη"
-                      Άνοιξε το 2018
-                    	Απευθύνεται σε όλες τις ηλικιακές ομάδες </p>
-                    </p>
-              </div>
-            </div>
+      <div class="col">
+        <!-- add an image here -->
+        <div class="card">
+          <img class="card-img-top"
+            src="https://www.lifo.gr/icache/870/580/1/1433282_Amuvni-paidiki-xara-AMEA-lifo_-15-.jpg"
+            alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">ΠΑΙΔΙΚΗ ΧΑΡΑ ΓΙΑ ΑΜΕΑ
+              <p> Λεωφόρος Βουλιαγμένης, πρώην Αμερικάνικη Βάση 16777 Eλληνικό.
+                Πρότυπη παιδική χαρά για ΑμεΑ που λειτουργεί στον σύλλογο "Αμυμώνη".
+                Άνοιξε το 2018.
+                Απευθύνεται σε όλες τις ηλικιακές ομάδες. </p>
+            </p>
           </div>
+        </div>
+      </div>
 
 
-          <div class="col">
-              <!-- add an image here -->
-              <div class="card">
-                <img class="card-img-top" src="https://meallamatia.gr/wp-content/uploads/2019/03/theama_theatro_atomwn_me_anapiria.jpg"
-                  alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">ΘΕΑΜΑ θέατρο
-                      <p> Ακάδημου 13, Μεταξουργείο
-                       Ιδρύθηκε τον Απρίλιο 2010
-                         Πρώτη επαγγελματική ομάδα θεάτρου για άτομα με αναπηρία στην κύρια σύνθεσή της </p>
-                       </p></p>
-                </div>
-              </div>
-            </div>
+      <div class="col">
+        <!-- add an image here -->
+        <div class="card">
+          <img class="card-img-top"
+            src="https://meallamatia.gr/wp-content/uploads/2019/03/theama_theatro_atomwn_me_anapiria.jpg"
+            alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">ΘΕΑΜΑ θέατρο
+              <p> Ακάδημου 13, Μεταξουργείο.
+                Ιδρύθηκε τον Απρίλιο 2010.
+                Πρώτη επαγγελματική ομάδα θεάτρου για άτομα με αναπηρία στην κύρια σύνθεσή της. </p>
+            </p>
+            </p>
+          </div>
+        </div>
+      </div>
 
 
-            <div class="col">
-                <!-- add an image here -->
-                <div class="card">
-                  <img class="card-img-top" src="https://www.danaoscinema.gr/wp-content/uploads/2019/04/DSC_0024.jpg"
-                    alt="Card image cap">
-                  <div class="card-body">
-                    <p class="card-text">
-                  </div>
-                </div>
-              </div>
+      <div class="col">
+        <!-- add an image here -->
+        <div class="card">
+          <img class="card-img-top" src="https://pitsascamp.gr/wp-content/uploads/2017/02/DSCF4734-min-1-760x570.jpg"
+            alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text"> Άνω Πρίνου 
+              <p>(Καζαβήτι, Θάσος 640 10,ειδικές εγκαταστάσεις για αναπηρικά αμαξίδια.</p>
+
+              <p> </p>
+          </div>
+        </div>
+      </div>
 
 
 
@@ -204,7 +205,12 @@
 
 
 
-
+    <footer class="blog-footer">
+        <p>Contact us: ameawaree@gmail.com</p>
+        <p>
+          <a href="https://www.instagram.com/?hl=el">Follow Us</a>
+        </p>
+      </footer>
 
 
 
